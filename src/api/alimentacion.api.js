@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Define la URL del backend
-const backendURL = 'salud.azurewebsites.net';
+const backendURL = 'https://salud.azurewebsites.net';
 
 console.log(`API URL: ${backendURL}/api/ali/alimentacion/`);
 
