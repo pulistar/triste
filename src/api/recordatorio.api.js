@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Define la URL del backend
-const backendURL = 'http://127.0.0.1:8000';
+const backendURL = 'salud.azurewebsites.net';
 
 console.log(`API URL: ${backendURL}/api/rec/recordatorio/`);
 
