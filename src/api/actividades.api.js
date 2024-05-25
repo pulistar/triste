@@ -1,11 +1,15 @@
+// actividades.api.js
+
 import axios from 'axios';
 
 // Define la URL del backend
-const backendURL = 'https://salud.azurewebsites.net';
+const backendURL = 'https://lively-bay-02271bb0f.5.azurestaticapps.net'; // Nueva URL proporcionada en el error 404
+
+console.log(`API URL: ${backendURL}/actividades`);
 
 // Crea una instancia de Axios con la URL base configurada
 const actividadesApi = axios.create({
-  baseURL: `${backendURL}/api/act/actividades/`,
+  baseURL: `${backendURL}/actividades`, // Actualización de la URL base
 });
 
 // Define las funciones para interactuar con la API
